@@ -1,0 +1,6 @@
+{
+  "name": "SoundDrop - YouTube to MP3 & Offline Music Player",
+  "description": "Fast, mobile-optimized YouTube to MP3 converter and offline music player with custom bitrates, queue playback, and instant Android installation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
