@@ -6,6 +6,7 @@ export async function fetchVideoInfo(url: string): Promise<VideoInfo> {
     const errorData = await res.json().catch(() => ({}));
     throw new Error(errorData.error || 'Failed to fetch video details. Check the YouTube URL.');
   }
+  console.log(res);
   return res.json();
 }
 
